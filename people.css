@@ -1,0 +1,89 @@
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #e1850d;
+    color: white;
+    padding: 60px 50px;
+    text-align: center;
+    font-size:30px;
+    font-family: "Nunito", sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 12px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.person {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    display: flex; /* Added */
+    align-items: center; /* Added */
+}
+
+.person-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.person-details {
+    flex: 1;
+}
+
+.person-photo {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.person h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.person p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.person img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer{
+    text-align: center;
+}
